@@ -3,6 +3,8 @@
 <head>
 	<title>Los Gallos - Parque Avellaneda</title>
 	<meta charset="utf-8">
+	<!-- Hacer responsive -->
+	<meta name="viewport" content="width=device-width, user-scalable=no">
 	<link rel="icon" href="img/LogoGallos.png">
 	<!--Linkeo a Bootstrap-->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -18,30 +20,30 @@
 	<div class="container-fluid color-ROJOGALLO">
 		<header class="container">
 			<div class="row">
-				<div class="col-2"><br><img class="img-fluid" src="img/LogoGallos.png"></div>
+				<div class="col-2"><br><img class="img-fluid logoHeader" src="img/LogoGallos.png"></div>
 				<div class= "text-center" class="col-1"><br><h3><br>Los<br><b>Gallos</b></h3></div>
 				<div class="col-5"></div>
 				<div class="col-1"></div>
-				<div class="col-2"><br><br><img class="img-fluid" src="img/manaos.png"></div>
+				<div class="col-2"><br><br><img class="logoHeader img-fluid" src="img/manaos.png"></div>
 			</div>
 		</header>
 	</div>	
 	<div class="fondoNav">
-		<nav class="container">
+		<nav class="container px-0">
 			<ul class="nav justify-content-center">
-	  			<li class="nav-item">
+	  			<li class="text-center nav-item">
 	    			<a class="nav-link espBtn" href="#">Home</a>
 	  			</li>
-	  			<li class="nav-item">
+	  			<li class="text-center nav-item">
 	    			<a class="nav-link espBtn" href="#">Nuestras canchas</a>
 			  	</li>
-			 	 <li class="nav-item">
+			 	 <li class="text-center nav-item">
 			   		<a class="nav-link espBtn" href="#">Hace tu reserva</a>
 			 	 </li>
-			 	 <li class="nav-item">
+			 	 <li class="text-center nav-item">
 	    			<a class="nav-link espBtn" href="#">Quienes Somos?</a>
 	  			</li>
-	  			<li class="nav-item">
+	  			<li class="text-center nav-item">
 	    			<a class="nav-link espBtn" href="contacto.html">Contacto</a>
 	  			</li>
 			 </ul>
@@ -49,6 +51,21 @@
 	</div>
 	<div class="container cuerpo gris">
 		<h1 class="text-center">Los Gallos</h1><br>
+
+				<section class="text-center">
+			<h2>Que ofrecemos en nuestro complejo? <br></h2><br>
+			<ul id="listaDelHome">
+				<li class="listaHome">Canchas de futbol para que puedas venir a jugar con tus amigos/as (de 5 o de 11), para las cuales podes reservar desde su casa, en nuestra seccion de reservas.</li>
+				<li class="listaHome">Complejo de parrillas para que puedas venir cuando gustes y usarlos. (Consultar por las mismas a cualquiera de nuestros metodos de contacto).</li>
+				<li class="listaHome">Ofrecemos un servicio de escuelita de futbol masculino y femenino, para niños o adultos, a partir de los 8 años!</li>
+				<li class="listaHome">Queres venir a festejar tu cumpleaños? Contactate con nosotros y consultanos por los precios y fecha.</li>
+			</ul>
+		</section>
+		
+
+
+
+
 
 		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
   			<ol class="carousel-indicators">
@@ -80,19 +97,6 @@
 
 
 
-		<section class="text-center">
-			<h2>Que ofrecemos en nuestro complejo? <br></h2><br>
-			<ul id="listaDelHome">
-				<li class="listaHome">Canchas de futbol para que puedas venir a jugar con tus amigos/as (de 5 o de 11), para las cuales podes reservar desde su casa, en nuestra seccion de reservas.</li>
-				<li class="listaHome">Complejo de parrillas para que puedas venir cuando gustes y usarlos. (Consultar por las mismas a cualquiera de nuestros metodos de contacto).</li>
-				<li class="listaHome">Ofrecemos un servicio de escuelita de futbol masculino y femenino, para niños o adultos, a partir de los 8 años!</li>
-				<li class="listaHome">Queres venir a festejar tu cumpleaños? Contactate con nosotros y consultanos por los precios y fecha.</li>
-			</ul>
-		</section>
-		
-
-
-
 
 
 
@@ -120,8 +124,8 @@
 	</div>
 	<footer class="container-fluid negro">
 		<div class="container">
-			<section class=" row">
-				<div class="col-4">
+			<section class="aligh-items-center row">
+				<div class="asd col-4">
 				Av. White 659 <br>
 				Tel. 4684-2973 / 15-5220-8689 <br>
 				Parque Avellaneda, CABA, Argentina.
@@ -129,14 +133,14 @@
 				<div class="col-4">
 				<h3>Mapa del sitio</h3>
 				<ul id=listaFooter>
-					<li><a href="index.html">Home</a></li>
-					<li><a href="#">Nuestras canchas</a></li>
-					<li><a href="#">Hace tu reserva</a></li>
-					<li><a href="#">Quienes somos?</a></li>
-					<li><a href="contacto.html">Contacto</a></li>
+					<li class="itemLisF"><a href="index.html">Home</a></li>
+					<li class="itemLisF"><a href="#">Nuestras canchas</a></li>
+					<li class="itemLisF"><a href="#">Hace tu reserva</a></li>
+					<li class="itemLisF"><a href="#">Quienes somos?</a></li>
+					<li class="itemLisF"><a href="contacto.html">Contacto</a></li>
 				</ul>
 				</div>
-				<div id="redes" class="col-4 text-right">
+				<div  class="col-4 text-right">
 				Nuestras Redes <br>
 				img img img </div>
 			</section>

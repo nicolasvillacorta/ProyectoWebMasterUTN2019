@@ -29,6 +29,9 @@
 	color: #989991;
 }
 
+.carousel{
+	padding-bottom: 10px;
+}
 
 body{
 	background-color: #7E2308;
@@ -44,7 +47,7 @@ nav{
 
 
 nav ul li{
-	border: solid 2px;
+	color: white;
 }
 
 footer{
@@ -52,10 +55,17 @@ footer{
 	color:white;
 }
 
+.logoHeader{
+	max-width: 150px;
+}
+
 .fondoNav{
 	background-color: #642411;
 }
 
+.nav-item{
+	width: 20%;
+}
 .listaHome{
 	margin-left: 30px;
 }
@@ -63,6 +73,14 @@ footer{
 #listaFooter{
 	list-style-type: none;
 }
+
+#redes{
+	font-weight: 20;
+}
+
+/* #listaFooter ul li:hover{
+	color: white;
+} */
 
 /* 	#listaDelHome{
 	list-style-image: url("https://ventas.area51futbol5.com.ar/wp-content/uploads/2018/03/pelota-gira.gif");
