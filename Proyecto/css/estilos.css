@@ -1,0 +1,69 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.color-INDIANRED{
+	background-color: #CD5C5C;
+}
+
+.color-ROJOGALLO{
+	background-color: #8F3419;
+}
+
+.espBtn{
+	
+}
+
+.cuerpo{
+	border: 1px solid black;
+	margin-top: 10px;
+	background-color: white;
+}
+
+.negro{
+	background-color: black;
+}
+
+.gris{
+	color: #989991;
+}
+
+
+body{
+	background-color: #7E2308;
+}
+
+header div div h3{
+	font-family: 'Montserrat', sans-serif;
+}
+
+nav{
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+nav ul li{
+	border: solid 2px;
+}
+
+footer{
+	margin-top: 10px;
+	color:white;
+}
+
+.fondoNav{
+	background-color: #642411;
+}
+
+.listaHome{
+	margin-left: 30px;
+}
+
+#listaFooter{
+	list-style-type: none;
+}
+
+/* 	#listaDelHome{
+	list-style-image: url("https://ventas.area51futbol5.com.ar/wp-content/uploads/2018/03/pelota-gira.gif");
+	} */
