@@ -3,38 +3,8 @@
 	padding: 0;
 }
 
-.color-INDIANRED{
-	background-color: #CD5C5C;
-}
-
-.color-ROJOGALLO{
-	background-color: #8F3419;
-}
-
-.espBtn{
-	
-}
-
-.cuerpo{
-	border: 1px solid black;
-	margin-top: 10px;
-	background-color: white;
-}
-
-.negro{
-	background-color: black;
-}
-
-.gris{
-	color: #989991;
-}
-
-.carousel{
-	padding-bottom: 10px;
-}
-
 body{
-	background-color: #7E2308;
+	background-color: #f1ecff;
 }
 
 header div div h3{
@@ -55,6 +25,36 @@ footer{
 	color:white;
 }
 
+
+.color-ROJOGALLO{
+	background-color: #8F3419;
+}
+
+.rojo{
+	color: red;
+}
+
+.cuerpo{
+	font-family: 'Open Sans', sans-serif;
+	border: 1px solid black;
+	margin-top: 10px;
+	background-color: white;
+}
+
+.card{
+	padding-top: 20px;
+}
+
+.negro{
+	background-color: black;
+}
+
+
+.carousel{
+	padding-bottom: 10px;
+}
+
+
 .logoHeader{
 	max-width: 150px;
 }
@@ -68,6 +68,14 @@ footer{
 }
 .listaHome{
 	margin-left: 30px;
+}
+
+.fotosNos{
+	box-shadow: 2px 2px 10px black;
+}
+
+#firma{
+	font-family: 'Srisakdi', cursive;
 }
 
 #listaFooter{
