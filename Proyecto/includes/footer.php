@@ -10,7 +10,7 @@
 				<h3>Mapa del sitio</h3>
 				<ul id=listaFooter>
 					<li class="itemLisF"><a href="index.php">Home</a></li>
-					<li class="itemLisF"><a href="#">Nuestras canchas</a></li>
+					<li class="itemLisF"><a href="nuestras_canchas.php">Nuestras canchas</a></li>
 					<li class="itemLisF"><a href="#">Hace tu reserva</a></li>
 					<li class="itemLisF"><a href="nosotros.php">Nosotros</a></li>
 					<li class="itemLisF"><a href="contacto.html">Contacto</a></li>

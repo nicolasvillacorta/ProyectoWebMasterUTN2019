@@ -16,7 +16,7 @@
 	    			<a class="nav-link espBtn" href="index.php">Home</a>
 	  			</li>
 	  			<li class="text-center nav-item">
-	    			<a class="nav-link espBtn" href="#">Nuestras canchas</a>
+	    			<a class="nav-link espBtn" href="nuestras_canchas.php">Nuestras canchas</a>
 			  	</li>
 			 	 <li class="text-center nav-item">
 			   		<a class="nav-link espBtn" href="#">Hace tu reserva</a>
