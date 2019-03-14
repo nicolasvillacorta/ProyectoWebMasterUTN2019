@@ -1,0 +1,120 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-image: url(../img/fondix.png);
+}
+
+.color-ROJOGALLO{
+	background-color: rgba(153, 19, 19,0.5);
+}
+
+h1{
+	color: #111111;
+
+}
+
+.logo1{
+	color: #790102;
+	}
+
+nav ul li a:hover{
+	color: #C1D9CC;
+	text-decoration: underline red;
+}
+
+.fondoNav{
+	background-color: #7A0000;
+}
+
+header div div h3{
+	font-family: 'Montserrat', sans-serif;
+}
+
+nav{
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+ul li a{
+	color: white;
+}
+
+footer{
+	margin-top: 10px;
+	color:white;
+}
+
+.rojo{
+	color: #aa1112;
+	font-size: 25px;
+}
+
+.cuerpo{
+	font-family: 'Open Sans', sans-serif;
+	border: 1px solid black;
+	margin-top: 40px;
+	background-color: white;
+	padding-top: 30px;
+}
+
+.card{
+	padding-top: 20px;
+}
+
+.negro{
+	background-color: black;
+}
+
+
+.carousel{
+	padding-bottom: 10px;
+}
+
+
+
+.nav-item{
+	width: 25%;
+}
+.listaHome{
+	margin-left: 30px;
+}
+
+.fotosNos{
+	box-shadow: 2px 2px 10px black;
+}
+
+.icono a{
+	color: #7A0000;
+}
+
+.btn{
+	background-color: #7A0000;
+	color:white;
+}
+
+.btn:hover{
+	color: #C1D9CC;
+}
+
+#redes a{
+	color: #C1D9CC;
+}
+
+#firma{
+	font-family: 'Srisakdi', cursive;
+}
+
+#listaFooter{
+	list-style-type: none;
+}
+
+/* #listaFooter ul li:hover{
+	color: white;
+} */
+
+/* 	#listaDelHome{
+	list-style-image: url("https://ventas.area51futbol5.com.ar/wp-content/uploads/2018/03/pelota-gira.gif");
+	} */
